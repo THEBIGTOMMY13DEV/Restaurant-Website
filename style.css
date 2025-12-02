@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url("https://use.typekit.net/jai3bwg.css");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-size: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+:root {
+    background-color: initial;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.navbar {
+    background-color: #04002C;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-items {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 50px;
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.navbar-items:hover {
+    color: #1c1c84;
+}
+
+.RestaurantNavIMG {
+    max-height: unset;
+    border-radius: 97px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.Restaurant-Title {
+    padding-top: 1em;
+    font-size: 40px;
+    justify-self: center;
+    font-family: "recursive-mono-casual-static", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.HeroSection {
+    background-size: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.RestaurantHeroIMG {
+    display: flex;
+    justify-self: center;
+    padding-top: 5em;
+}
+.HeroSub-Section {
+    height:25%;
+    width:100vw;
+    justify-self: center;
+    background-color: #04002C;
+    margin-top: 500px;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.HeroSub-Section h1{
+    font-size: 65px;
+    color:white;
+    justify-self: center;
+}
+.HeroSub-Section h3{
+    font-size: 35px;
+    margin-top: 40px;
+    color:white;
+    justify-self: center;
+}
+.Menus{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* Fix this css */
+    background-color: #000035;
+}
+.RestaurantMENU{
+  position: absolute;
+  align-self: center;
+  margin-right: 400px;
+  margin-bottom:200px;
+  color:white;
+}
+.ViewRestaurantMENU{  
+  position: absolute;
+  align-self: center;
+  margin-right: 340px;
+  margin-bottom:-100px;
+  color:white;
+  border-radius: 70px;
+  background-color: #000068;
+  font-size:40px;
+  text-decoration: none;
+  font-family: "GFS Neohellenic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border: 50px solid #000068;
+}
+.RestaurantCoverIMG{
+    height:1000px;
+    width:1000px;
+}
+.RestaurantMenuIMGS{
+    align-items:flex-start !important;
+}
