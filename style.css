@@ -6,6 +6,7 @@
 @import url("https://use.typekit.net/jai3bwg.css");
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&display=swap');
+
 html,
 body,
 div,
@@ -204,63 +205,66 @@ table {
     justify-self: center;
     padding-top: 5em;
 }
+
 .HeroSub-Section {
-    height:25%;
-    width:100vw;
+    height: 25%;
+    width: 100vw;
     justify-self: center;
     background-color: #04002C;
     margin-top: 500px;
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.HeroSub-Section h1{
+
+.HeroSub-Section h1 {
     font-size: 65px;
-    color:white;
+    color: white;
     justify-self: center;
 }
-.HeroSub-Section h3{
+
+.HeroSub-Section h3 {
     font-size: 35px;
     margin-top: 40px;
-    color:white;
+    color: white;
     justify-self: center;
 }
-.Menus{
-    font-size: 50px;
+
+.MenuSection {
     display: flex;
-    justify-content: space-between;
-    /* Fix this css */
     background-color: #000035;
 }
-.RestaurantMENU{
-  position: absolute;
-  align-self: center;
-  margin-right: 400px;
-  margin-bottom:200px;
-  color:white;
+
+.MenuSection div {
+    width: 100%;
+    text-align: center;
+    align-content: center;
 }
-.ViewRestaurantMENU{  
-  position: absolute;
-  align-self: center;
-  margin-right: 340px;
-  margin-bottom:-100px;
-  color:white;
-  border-radius: 70px;
-  background-color: #000068;
-  font-size:40px;
-  text-decoration: none;
-  font-family: "GFS Neohellenic", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  border: 50px solid #000068;
+.ViewRestaurantMENU{
+    display: flex;
+    align-self: center;
 }
-.RestaurantCoverIMG{
-    height:1000px;
-    width:1000px;
+.ViewRestaurantMENUTXT {
+    color: white;
+    border-radius: 70px;
+    background-color: #000068;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 50px solid #000068;
 }
-.RestaurantMenuIMGS{
-    align-items:flex-start !important;
+
+.RestaurantCoverIMG {
+    height: 1000px;
+    width: 1000px;
+    padding-left:auto;
+}
+.ItalianGreekFusionIMG {
+    height: 120vh;
+    width: 40vw;
 }
