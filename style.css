@@ -113,7 +113,7 @@ section {
 
 body {
     line-height: 1;
-    background-size: 100vw;
+    background-size: 100%;
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ table {
     font-style: normal;
 }
 
-.HeroSection {
+#HeroSection {
     background-size: 100%;
 }
 
@@ -200,18 +200,12 @@ table {
     display: none;
 }
 
-.RestaurantHeroIMG {
-    display: flex;
-    justify-self: center;
-    padding-top: 5em;
-}
-
-.HeroSub-Section {
+#HeroSub-Section {
     height: 25%;
-    width: 100vw;
+    width: 100%;
     justify-self: center;
     background-color: #04002C;
-    margin-top: 500px;
+    margin-top:300px;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -220,34 +214,30 @@ table {
         "wdth" 100;
 }
 
-.HeroSub-Section h1 {
+#HeroSub-Section h1 {
     font-size: 65px;
     color: white;
     justify-self: center;
+    padding-top: .5em;
 }
 
-.HeroSub-Section h3 {
+#HeroSub-Section h3 {
     font-size: 35px;
     margin-top: 40px;
     color: white;
     justify-self: center;
 }
 
-.MenuSection {
-    display: flex;
-    background-color: #000035;
-}
-
-.MenuSection div {
+#MenuSection div {
     width: 100%;
+}
+#MenuSubSection {
     text-align: center;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 }
-.ViewRestaurantMENU{
-    display: flex;
-    align-self: center;
-}
-.ViewRestaurantMENUTXT {
+#MenuBTN {
     color: white;
     border-radius: 70px;
     background-color: #000068;
@@ -258,13 +248,18 @@ table {
     font-style: normal;
     border: 50px solid #000068;
 }
-
-.RestaurantCoverIMG {
-    height: 1000px;
-    width: 1000px;
-    padding-left:auto;
-}
-.ItalianGreekFusionIMG {
-    height: 120vh;
-    width: 40vw;
-}
+/* .RestaurantFooter {
+  text-align: first baseline;
+  padding: 3px;
+  background-color: #000068;
+  color: black;
+  font-size:50px;
+} */
+/* .FooterICNS i {
+  color: #000068;
+  margin: 20px;
+  font-size: large;
+  cursor: pointer;
+background-color: white;
+border-radius: 76px;
+} */

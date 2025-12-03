@@ -7,6 +7,7 @@
   <title>Tommy's Italian Restaurant</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="/Images/Favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
 </head>
 
 <body>
@@ -14,38 +15,43 @@
     <div class="navbar-container">
       <a href="#"><img class="RestaurantNavIMG" src="./Images/Logo.png"></a>
       <a href="#" class="navbar-items">Hours & Locations</a>
-      <a href="#" class="navbar-items">Menus</a>
+      <a href="#MenuSection" class="navbar-items">Menus</a>
       <a href="#" class="navbar-items">Private Events</a>
       <a href="#" class="navbar-items">About</a>
       <a href="#" class="navbar-items">Take Out</a>
       <a href="#" class="navbar-items">Reservations</a>
     </div>
   </nav>
-  <div class="HeroSection">
-    <img class="RestaurantHeroIMG" src="./Images/TransparentLogo2.png">
-    <img class="hidden" alt="preloading" />
+  <div id="HeroSection">
+    <img src="./Images/TransparentLogo2.png" style="display: flex; justify-self: center; padding-top: 5em;">
+    <img class="hidden" alt="preloading"/>
   </div>
-  <div class="HeroSub-Section">
+  <div id="HeroSub-Section">
     <h1>Welcome to Atanasio's Italian & Greek Fusion Cuisine</h1>
     <h3>We Are A Family Owned Buisness and Owned this Restaurant For Many Years and Many More to Come.</h3>
   </div>
-  <div class="MenuSection">
+  <div id="MenuSection" style="display: flex; background-color: #000035;">
     <div>
-      <img class="ItalianGreekFusionIMG" src="./Images/ItalianandgreekFusionCuisine.jpg">
+      <img src="./Images/ItalianandgreekFusionCuisine.jpg" style="height: 90vh; width: 40vw; padding-top: 70px;">
     </div>
-    <div class="ViewRestaurantMENU">
-      <p class="RestaurantMENU" style="color:white; font-size:50px;">MENU</p>
-      <button class="ViewRestaurantMENUTXT">View Menu</button>
-      <img class="RestaurantCoverIMG" src="./Images/GreekKey.png">
+    <div id="MenuSubSection">
+      <img src="./Images/GreekKey.png" style="height: 1000px; width: 1000px;">
+      <div>
+      <p style="color:white; font-size:50px;">MENU</p>
+      <button id="MenuBTN">View Menu</button>
+      </div>
     </div>
   </div>
   <!-- <div class="Menu"></div>
   <div class="Menu"></div>
   <div class="Menu"></div> -->
 
-  <!-- <div class="footer">
-    <p>Hello</p>
-  </div> -->
+  <!-- <footer class="RestaurantFooter">
+  <div class="FooterICNS">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+  </div>
+</footer> -->
 </body>
 <script src="script.js"></script>
 
