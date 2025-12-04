@@ -6,6 +6,7 @@
 @import url("https://use.typekit.net/jai3bwg.css");
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 html,
 body,
@@ -232,10 +233,25 @@ table {
     width: 100%;
 }
 #MenuSubSection {
+    height:100%;
+    width:1252px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
+}
+#MenuSubSection div{
+    background-image:url('./Images/GreekKey.png');
+    background-size: 1000px 1000px;
+    height:1000px;
+    width:1000px;
+    align-content: center;
+}
+#MenuSubSection p {
+  margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 #MenuBTN {
     color: white;
@@ -248,18 +264,8 @@ table {
     font-style: normal;
     border: 50px solid #000068;
 }
-/* .RestaurantFooter {
-  text-align: first baseline;
-  padding: 3px;
-  background-color: #000068;
-  color: black;
-  font-size:50px;
-} */
-/* .FooterICNS i {
-  color: #000068;
-  margin: 20px;
-  font-size: large;
-  cursor: pointer;
-background-color: white;
-border-radius: 76px;
-} */
+#MenuBTN:hover {
+    background-color: #1c1c84;
+    border: 50px solid #1c1c84;
+    cursor: pointer;
+}

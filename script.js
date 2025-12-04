@@ -4,6 +4,9 @@ const images = [
     "./Images/GreekFood3.jpg",
     "./Images/GreekFood4.jpg",
 ]
+document.getElementById('MenuBTN').onclick = () => {
+    window.location.href = 'Menu.html';
+}
 window.onload = () => {
   document.body.style.backgroundImage = `url(${images[0]})`
   document.querySelector('.hidden').src = images[1]
