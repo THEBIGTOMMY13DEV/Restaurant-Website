@@ -7,13 +7,13 @@
   <title>Tommy's Italian Restaurant</title>
   <link rel="stylesheet" href="RestaurantLandingPageStyle.css">
   <link rel="icon" type="image/x-icon" href="/Images/Favicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 
 <body>
   <nav class="navbar">
     <div class="navbar-container">
-      <a href="#"><img class="RestaurantNavIMG" src="./Images/Logo.png"></a>
+      <a href="#"><img class="RestaurantNavIMG" src="./Images/Logo.png" alt="RestaurantLogoOriginal"></a>
       <a href="#" class="navbar-items">Hours & Locations</a>
       <a href="#MenuSection" class="navbar-items">Menus</a>
       <a href="#" class="navbar-items">Private Events</a>
@@ -23,8 +23,9 @@
     </div>
   </nav>
   <div id="HeroSection">
-    <img src="./Images/TransparentLogo2.png" style="display: flex; justify-self: center; padding-top: 5em;">
-    <img class="hidden" alt="preloading"/>
+    <img src="./Images/TransparentLogo2.png" alt="RestaurantLogoTransparent"
+      style="display: flex; justify-self: center; padding-top: 5em;">
+    <img class="hidden" src="" alt="preloading" />
   </div>
   <div id="HeroSub-Section">
     <h1>Welcome to Atanasio's Italian & Greek Fusion Cuisine</h1>
@@ -32,28 +33,36 @@
   </div>
   <div id="MenuSection" style="display: flex; background-color: #000035;">
     <div>
-      <img src="./Images/ItalianandgreekFusionCuisine.jpg" style="height: 90vh; width: 40vw; padding-top: 70px;">
+      <img src="./Images/ItalianandgreekFusionCuisine.jpg" alt="ItalianCuisinewithGreekSalad"
+        style="height: 90vh; width: 40vw; padding-top: 70px;">
     </div>
     <div id="MenuSubSection">
-      <!-- <img src="./Images/GreekKey.png" style="height: 1000px; width: 1000px;"> -->
       <div>
         <p style="color:white; font-size:50px;">MENU</p>
         <button id="MenuBTN">View Menu</button>
       </div>
     </div>
   </div>
-  <!-- <div class="Menu"></div>
-  <div class="Menu"></div>
-  <div class="Menu"></div> -->
+  <div id="ReserveATableSection" style="display: flex; background-color: #000035;">
+    <div id="ReserveATableSubSection">
+      <div>
+        <p style="color:white; font-size:20px;">Atanasio's Italian And Greek Fusion Restaurant has Party Packages and caters to your groups needs.</p><br>
+          <p style="color:white; font-size:20px;">With a Multitude of Private Rooms for Baptisms, Birthdays, Anniversarys, etc we have space to make your special occasion more cherisable.</p>
+        <button id="MenuBTN">Click Here to Book A Table</button>
+      </div>
+    </div>
+    <div>
+      <img src="./Images/ReserveAtable.jpg" alt="Italian Restaurant With tables" style="height: 1000px; width:1000px; padding-top: 55px; padding-right:2px;">
+    </div>
+  </div>
 
   <footer class="RestaurantFooter" style="background-color: #000068;">
-  <div class="FooterICNS">
-    <a href="#"><img src="./Images/Facebook.png" style="width:90px; height:90px;"></a>
-    <a href="#"><img src="./Images/Instagram.png" style="width:90px; height:90px;"></a>
-  </div>
-</footer>
+    <div class="FooterICNS">
+      <a href="#"><img src="./Images/Facebook.png" style="width:90px; height:90px;" alt="FacebookLogo"></a>
+      <a href="#"><img src="./Images/Instagram.png" style="width:90px; height:90px;" alt="InstagramLogo"></a>
+    </div>
+  </footer>
 
 </body>
 <script src="RestaurantLandingPage.js"></script>
-
 </html>

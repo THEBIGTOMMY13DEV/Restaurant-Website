@@ -229,22 +229,30 @@ table {
     justify-self: center;
 }
 
-#MenuSection div {
+#MenuSection div , #ReserveATableSection div {
     width: 100%;
 }
-#MenuSubSection {
+
+#MenuSubSection, #ReserveATableSubSection {
     height:100%;
     width:1252px;
     text-align: center;
 }
-#MenuSubSection div{
+
+#MenuSubSection div, #ReserveATableSubSection div {
     background-image:url('./Images/GreekKey.png');
     background-size: 1000px 1000px;
     height:1000px;
     width:1000px;
     align-content: center;
 }
-#MenuSubSection p {
+#ReserveATableSubSection div{
+    background-image:url('./Images/GreekKey2.png');
+    background-size: 90vh 40vw;
+    align-content: center;
+}
+
+#MenuSubSection p , #ReserveATableSubSection p {
   margin-bottom: 50px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
